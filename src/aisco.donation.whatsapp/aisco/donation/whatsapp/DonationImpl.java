@@ -75,6 +75,12 @@ public class DonationImpl extends DonationDecorator {
     @Override
     public void printHeader(){
         System.out.println("Donation Via WhatsApp");
+        System.out.println("----");
+        System.out.println("List Kontak Whatsapp:");
+        for (HashMap.Entry<String, String> entry : whatsAppContact.entrySet()) {
+            System.out.println("  " + entry.getKey() + " - " + entry.getValue());
+        }
+        System.out.println("----");
     }
 
     public HashMap<String, String> getWhatsAppContact() {
