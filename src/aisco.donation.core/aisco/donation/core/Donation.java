@@ -4,4 +4,5 @@ package aisco.donation.core;
         void getDonation();
         void addDonation();
         void printHeader();
+        String toString();
     }

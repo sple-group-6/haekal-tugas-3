@@ -28,5 +28,6 @@ public abstract class DonationComponent implements Donation
     public abstract void addDonation();
     public abstract void getDonation();
     public abstract void printHeader();
+    public abstract String toString();
 
 }

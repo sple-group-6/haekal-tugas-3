@@ -24,4 +24,9 @@ public abstract class DonationDecorator extends DonationComponent {
 	public void printHeader(){
 		record.printHeader();
 	}
+
+	@Override
+	public String toString(){
+		return record.toString();
+	}
 }
