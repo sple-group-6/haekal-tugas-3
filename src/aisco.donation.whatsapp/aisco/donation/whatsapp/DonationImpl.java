@@ -83,11 +83,7 @@ public class DonationImpl extends DonationDecorator {
         System.out.println("----");
     }
 
-    public HashMap<String, String> getWhatsAppContact() {
-        return this.whatsAppContact;
-    }
-
-    public void addDonationViaWhatsapp(String phoneNumber, String donorName, String donorEmail, 
+    public void addDonationViaWhatsapp(String phoneNumber, String donorName, String donorEmail,
                                        String donorPhone, int amount) throws IllegalAccessException {
         if (!this.validatePhoneNumber(phoneNumber)) {
             throw new IllegalAccessException("Invalid WhatsApp phone number format");
