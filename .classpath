@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="src" path="src/aisco.donation.core" module="true"/>
+    <classpathentry kind="src" path="src/aisco.donation.pgateway" module="true"/>
+    <classpathentry kind="src" path="src/aisco.donation.whatsapp" module="true"/>
+    <classpathentry kind="src" path="src/aisco.financialreport.core" module="true"/>
+    <classpathentry kind="src" path="src/aisco.financialreport.expense" module="true"/>
+    <classpathentry kind="src" path="src/aisco.financialreport.frequency" module="true"/>
+    <classpathentry kind="src" path="src/aisco.financialreport.income" module="true"/>
+    <classpathentry kind="src" path="src/aisco.product.charityschool" module="true"/>
+    <classpathentry kind="src" path="src/aisco.product.hilfuns" module="true"/>
+    <classpathentry kind="src" path="src/aisco.product.mbgschool" module="true"/>
+    <classpathentry kind="src" path="src/aisco.product.yayasanpandhu" module="true"/>
+    <classpathentry kind="src" path="src/aisco.program.activity" module="true"/>
+    <classpathentry kind="src" path="src/aisco.program.category" module="true"/>
+    <classpathentry kind="src" path="src/aisco.program.core" module="true"/>
+    <classpathentry kind="src" path="src/aisco.program.operational" module="true"/>
+    <classpathentry kind="lib" path="external/payment.method.core.jar" module="true"/>
+    <classpathentry kind="lib" path="external/payment.method.doku.jar" module="true"/>
+    <classpathentry kind="lib" path="external/payment.page.core.jar" module="true"/>
+    <classpathentry kind="lib" path="external/PaymentCharity.jar" module="true"/>
+    <classpathentry kind="output" path="bin"/>
+</classpath>

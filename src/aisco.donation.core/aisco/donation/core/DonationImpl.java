@@ -4,17 +4,19 @@ import java.util.List;
 import java.util.Arrays;
 
 public class DonationImpl extends DonationComponent {
-    List <Object> donationList;
-
     public DonationImpl()
     {
-        System.out.println("Donation via AISCO");
         donationList = new ArrayList<>();
     }
 
     public DonationImpl (String name, String email, String phone, int amount, String paymentMethod)
     {
         super(name, email, phone, amount,paymentMethod);
+    }
+
+    @Override
+    public void printHeader() {
+        System.out.println("Donation via AISCO");
     }
 
     public void getDonation(){
@@ -30,7 +32,4 @@ public class DonationImpl extends DonationComponent {
     public String toString() {
         return "- Donasi " + name + ": " + amount + " Payment Method: " + paymentMethod + "\n";
     }
-
-
-
 }

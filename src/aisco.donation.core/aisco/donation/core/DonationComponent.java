@@ -1,5 +1,8 @@
 package aisco.donation.core;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class DonationComponent implements Donation
 {
     protected String name;
@@ -7,6 +10,7 @@ public abstract class DonationComponent implements Donation
     protected String phone;
     protected int amount;
     protected String paymentMethod;
+    protected List<Donation> donationList;
 
     public DonationComponent()
     {
@@ -23,5 +27,6 @@ public abstract class DonationComponent implements Donation
 
     public abstract void addDonation();
     public abstract void getDonation();
+    public abstract void printHeader();
 
 }
